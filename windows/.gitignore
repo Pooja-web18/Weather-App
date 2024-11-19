@@ -1,3 +1,53 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+
+# Android Studio related
+.idea/
+*.iml
+
+# Android-specific
+local.properties
+*.apk
+*.aab
+*.dex
+*.class
+*.jar
+
+# iOS specific
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Pods/
+ios/.symlinks/
+
+# macOS specific
+.DS_Store
+
+# VSCode specific
+.vscode/
+
+# Gradle related
+.gradle/
+build/
+
+# Logs and debug files
+*.log
+*.log.*
+*.hprof
+
+# Flutter plugin and dependencies
+pubspec.lock
+
+# Windows-specific
+Thumbs.db
+
+# JetBrains project files (if you're using IntelliJ IDEA)
+.idea/
+*.iml
+
+# Visual Studio specific
 flutter/ephemeral/
 
 # Visual Studio user-specific files.
@@ -11,7 +61,5 @@ x64/
 x86/
 
 # Visual Studio cache files
-# files ending in .cache can be ignored
 *.[Cc]ache
-# but keep track of directories ending in .cache
 !*.[Cc]ache/
